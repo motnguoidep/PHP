@@ -46,7 +46,7 @@
             </li>
             <li>
                 <span><i class="fa fa-envelope"></i></span>
-                <p><a href="#">ledat.fake@gmail.com/a></p>
+                <p><a href="#">ledat.fake@gmail.com</a></p>
             </li>
             <li>
                 <form class="form">

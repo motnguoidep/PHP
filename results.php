@@ -34,10 +34,7 @@ include('includes/header.php');
           <?php
           if(isset($_GET['search'])){
               
-
             $search_query = $_GET['user_query'];
-
-
 
             $run_query_by_pro_id = mysqli_query($con, "select *from products where product_keywords like'%$search_query%'");
              $get_pro = "SELECT * FROM `products` where `product_keywords` like '%".$search_query."%'";

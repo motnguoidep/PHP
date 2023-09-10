@@ -27,8 +27,6 @@ if ($run_show_pro->num_rows > 0) {
 ?>
 <script type="text/javascript">
   $(document).ready(function() {
-
-
     $("p.total_item").text("<?php if (isset($total_item)) {
                               echo $total_item;
                             } else {
